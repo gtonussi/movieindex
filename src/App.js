@@ -1,12 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+
+import { MoviesList } from "./movies/MoviesList";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Hello React</h1>
-      </header>
+     <MoviesList />
     </div>
   );
 }
