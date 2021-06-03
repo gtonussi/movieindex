@@ -1,5 +1,13 @@
-export function Movie({movie}) {
+import PropTypes from 'prop-types'
+
+export function Movie({ movie }) {
   return (
-    <li>{movie.name}</li>
+    <li>{movie.title}</li>
   )
+}
+
+Movie.propTypes = {
+  movie: PropTypes.shape({
+    title: PropTypes.string.isRequired
+  }).isRequired
 }

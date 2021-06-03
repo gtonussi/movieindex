@@ -1,6 +1,5 @@
-import './App.css';
-
 import { MoviesList } from "./movies/MoviesList";
+import './App.css';
 
 function App() {
   return (
